@@ -100,8 +100,12 @@ body{
         margin-top: 20px;
         width: 1360px;
         height: 50px;
+        background-color: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
         display: flex;
-        position: fixed;
+        position: sticky;
+        margin-bottom: 10px;
         
         .header_logo{
             margin-right: 20px;
@@ -228,11 +232,16 @@ body{
         }
     }
 
+    img{
+        width: 1360px;
+    }
+
     .header3{
-        margin-top: 85px;
+        margin-top: 5px;
         margin-left: 50px;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         button{
             width: 92px;
             background-color: #fff;
@@ -262,12 +271,82 @@ body{
                 color: #6c7177;
                 p{
                     cursor: pointer;
-                    pt
+                
                     &:hover{
                         color: black;
                     }
                 }
             }
         }
+    }
+}
+
+// hero
+
+.hero{
+    .kotegoriyalar{
+        margin-top: 70px;
+        margin-left: 50px;
+        .blocks{
+            gap: 15px;
+            display: flex;
+            i{
+                font-size: 30px;
+            }
+
+            .block{
+                width: 200px;
+                padding-left: 8px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: 0.0008mm solid #dfdbdb;
+                border-radius: 10px;
+                
+
+                .p3{
+                    margin-top: 25px;
+                }
+                .text{
+                    width: 100px;
+                    margin-left: 5px;
+                    p{
+                        color: #1D242F;
+                    }
+                }
+                .info{
+                    background-color: #FDF3F1;
+                    height: 50px;
+                    padding-top: 15px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    border-radius: 10px;
+                }
+
+                .text2{
+                    margin-top: 10px;
+                }
+
+                .info2{
+                    background-color: #FDF3F1;
+                    height: 50px;
+                    padding-top: 10px;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                    border-radius: 10px;
+                    .fa-mobile{
+                        margin-top: 6px;
+                    }
+
+                    .fa-refrigerator{
+                        margin-top: 6px;
+                    }
+                }
+                display: flex;
+            }
+        }
+    }
+
+    .news{
+
     }
 }
