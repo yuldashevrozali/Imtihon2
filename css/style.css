@@ -1,0 +1,90 @@
+@import url(fonts.scss);
+@import url(fontsawesome.scss);
+@import url(normalize.scss);
+a {
+  text-decoration: none;
+}
+
+.header .header_header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1360px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: -7px;
+  background-color: #F8F8F9;
+}
+
+.header .header_header1 p {
+  color: #6c7177;
+}
+
+.header .header_header1 .header_tel {
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-right: 17px;
+  font-size: 12px;
+}
+
+.header .header_header1 .header_tel i {
+  font-size: 12px;
+  margin-right: 1px;
+}
+
+.header .header_header1 .header_tel a {
+  color: #6c7177;
+  font-size: 12px;
+}
+
+.header .header_header1 .header_locate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 275px;
+}
+
+.header .header_header1 .header_locate p {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: "Gilroy,sans-serif";
+}
+
+.header .header_header1 .header_locate i {
+  font-size: 14px;
+  height: 5px;
+}
+
+.header .header_header1 .header_menu {
+  margin-top: -10px;
+}
+
+.header .header_header1 .header_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.header .header_header1 .header_menu ul li {
+  list-style: none;
+}
+
+.header .header_header1 .header_lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3px;
+}
+
+.header .header_header1 .header_lang svg {
+  margin-top: 12px;
+  margin-left: 3px;
+  width: 10px;
+}
+/*# sourceMappingURL=style.css.map */

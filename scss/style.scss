@@ -1,0 +1,90 @@
+@import url(fonts.scss);
+
+@import url(fontsawesome.scss);
+
+@import url(normalize.scss);
+
+$qizil:#D92E15;
+$footer:#1D242F;
+$footer_color:#222C3A;
+$b:#F8F8F9;
+
+a{
+    text-decoration: none;
+}
+
+// header
+.header{
+    .header_header1{
+        display: flex;
+        width: 1360px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: -7px;
+        background-color: $b;
+        p{
+            color: #6c7177;
+        }
+        .header_tel{
+            margin-left: 40px;
+            margin-top: 15px;
+            margin-right: 17px;
+            font-size: 12px;
+            i{
+                font-size: 12px;
+                margin-right: 1px;
+                
+            }
+            a{
+                color: #6c7177;
+                font-size: 12px;
+            }
+        }
+
+        .header_locate{
+            display: flex;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 275px;
+            p{
+                margin-top: 0px;
+                margin-left: 10px;
+                font-size: 12px;
+                font-family: "Gilroy,sans-serif";
+            }
+            i{
+                font-size: 14px;
+                
+                height: 5px;
+                
+            }
+        }
+
+        .header_menu{
+            margin-top: -10px;
+            ul{
+                display: flex;
+                gap: 30px;
+                margin-right: 50px;
+                margin-left: 20px;
+                li{
+                    list-style: none;
+                }
+            }
+        }
+
+        .header_lang{
+            display: flex;
+            margin-top: 3px;
+            svg{
+                margin-top:12px;
+                margin-left: 3px;
+                width: 10px;
+            }
+        }
+    }
+
+    .header2{
+        
+    }
+}
