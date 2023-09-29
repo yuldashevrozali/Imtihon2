@@ -13,8 +13,13 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: "Gilroy", sans-serif;
+}
+
 // header
 .header{
+    margin-left: -5px;
     .header_header1{
         display: flex;
         width: 1360px;
@@ -22,8 +27,15 @@ a{
         font-size: 12px;
         margin-top: -7px;
         background-color: $b;
+        padding-left: 12px;
         p{
             color: #6c7177;
+            font-family: "Gilroy",sans-serif;
+            &:hover{
+                color: black;
+            }
+            
+            
         }
         .header_tel{
             margin-left: 40px;
@@ -85,6 +97,177 @@ a{
     }
 
     .header2{
+        margin-top: 20px;
+        width: 1360px;
+        height: 50px;
+        display: flex;
+        position: fixed;
         
+        .header_logo{
+            margin-right: 20px;
+            margin-left: 53px;
+            padding-top: 15px;
+            img{
+                width: 155px;
+                height: 20px;
+            }
+        }
+
+        .header_katalog{
+            margin-right: 27px;
+            margin-left: 30px;
+            button{
+                display: flex;
+                width: 114px;
+                height: 50px;
+                border-radius: 13px;
+                border: none;
+                background-color: $qizil;
+                color: #F8F8F9;
+                p{
+                    margin-top: 18px;
+                    font-family: "Gilroy";
+                }
+                svg{
+                    width: 28px;
+                    height: 28px;
+                    margin-top: 9px;
+                    margin-left: 11px;
+                    margin-right: 9px;
+                    color: white;
+                    
+                }
+            }
+        }
+
+        .header_form{
+            form{
+                border: 1px solid  #999090;
+                border-radius: 10px;
+                // padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 3px;
+                
+                
+                input{
+                    width: 400px;
+                    height: 40px;
+                    color: #6c7177;
+                    border: none;
+                    font-size: 14px;
+                }
+
+                button{
+                    width: 74px;
+                    height: 43px;
+                    border-radius: 10px;
+                    border: none;
+                    margin-right: 3px;
+                    margin-top: 3px;
+                    background-color: $qizil;
+                    i{
+                        color: $b;
+                    }
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .header2_menu{
+            ul{
+                margin-left: -5px;
+                display: flex;
+                gap: 20px;
+                font-size: 14px;
+                color: #6c7177;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                    cursor: pointer;
+                    .p1{
+                        margin-top: 12px;
+                        width: 100px;
+                    }
+                    list-style: none;
+                    .fa-box{
+                        
+                        font-size: 25px;
+                        margin-top: -7px;
+                        margin-left: 30px;
+                        color: #6c7177;
+                    }
+
+                    .fa-scale-unbalanced{
+                        margin-left: 17px;
+                        font-size: 20px;
+                        margin-top: -7px;
+                        color: #6c7177;
+                    }
+
+                    .fa-regular{
+                        font-size: 20px;
+                        margin-left: 5px;
+                        margin-top: -7px;
+                        color: #6c7177;
+                    }
+
+                    .fa-heart{
+                        font-size: 20px;
+                        margin-top: -7px;
+                        margin-left: 20px;
+                    }
+
+                    .fa-user{
+                        font-size: 20px;
+                        margin-top: -7px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .header3{
+        margin-top: 85px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        button{
+            width: 92px;
+            background-color: #fff;
+            border: none;
+            height: 25px;
+            margin-top: -10px;
+            background-image: url(../img/aksiya.svg);
+            
+            p{
+                color: #fff;
+                margin-top: 4px;
+                
+            }
+        }
+
+        ul{
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            margin-top: 0px;
+            z-index: 1;
+            
+            font-family: "Gilroy", sans-serif;
+            li{
+                list-style: none;
+                
+                color: #6c7177;
+                p{
+                    cursor: pointer;
+                    pt
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
     }
 }
