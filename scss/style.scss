@@ -347,6 +347,151 @@ body{
     }
 
     .news{
+        position: relative;
+        .fa-arrow-left{
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 5px;
+        }
 
+        .fa-arrow-right{
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            cursor: pointer;
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .news_block{
+            display: flex;
+            gap: 12px;
+        }
+        margin-left: 50px;
+        .block1{
+            padding-top: 5px;
+            width: 200px;
+            border:1px solid #ffff;
+            .img2{
+                margin-left: 12px;
+            }
+
+            .h2{
+                margin-left: 5px;
+            }
+            &:hover{
+                border: 1px solid rgb(228, 228, 228);
+                border-radius: 15px;
+                
+            }
+            button{
+                cursor: pointer;
+                width: 170px;
+                height: 30px;
+                border: 1px solid #333;
+                border-radius: 10px;
+                background-color: #fff;
+                margin-left: 5px;
+                p{
+                    margin-top: 5px;
+                    
+                }
+            }
+
+            .p4{
+                width: 195px;
+                color: #6c7177;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
+            .p5{
+                width: 205px;
+                color: #6c7177;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
+            .p7{
+                width: 210px;
+                color: #6c7177;
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
+            .star{
+                display: flex;
+                align-items: center;
+                margin-top: -15px;
+                gap: 5px;
+                p{
+                    margin-left: 5px;
+                    color: #6c7177;
+                    margin-top: 20px;
+                }
+            }
+            h1{
+                font-size: 20px;
+                margin-top: -5px;
+                margin-left: 10px;
+            }
+
+            .buttons{
+                display: flex;
+                .button1{
+                    width: 54px;
+                    height: 50px;
+                    background-color: $qizil;
+                    border: none;
+                    margin-right: 10px;
+                    &:hover{
+                        background-color: #a71d08;
+                    }
+                    i{
+                        color: white;
+                        font-size: 20px;
+                }
+                }
+
+                .button2{
+                    width: 54px;
+                    height: 50px;
+                    background-color: #F7F8F8;
+                    border: none;
+                    margin-left: -5px;
+                    &:hover{
+                        background-color: #a7b1b1;
+                    }
+                    i{
+                        color: #5f6469;
+                        font-size: 20px;
+                    }
+                }
+
+                .button3{
+                    width: 54px;
+                    height: 50px;
+                    background-color: #F7F8F8;
+                    border: none;
+                    &:hover{
+                        background-color: #a7b1b1;
+                    }
+
+                    &:checked{
+                        border: 1px solid $qizil;
+                    }
+                    i{
+                        color: #5f6469;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
     }
 }
