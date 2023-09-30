@@ -603,9 +603,171 @@ body{
     }
 
     .hero_buy{
+        margin-left: 50px;
         h1{
-            font-size: 14px;
-            color: rgb(29 36 47);
+            font-size: 18px;
+            color: rgb(29, 36, 47);
+        }
+
+        .buy_menu{
+            ul{
+                display: flex;
+                margin-left: -35px;
+                a{
+                    font-size: 12px;
+                    color: #65696e;
+                    background-color: #dadddd;
+                    margin-right: 18px;
+                    border-radius: 18px;
+                    padding: 10px;
+                }
+
+                .a1{
+                    color: #fff;
+                    background-color: black;
+                    border-radius: 15px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .news_block{
+            display: flex;
+            p{
+                font-size: 14px;
+            }
+            .block1{
+                padding-top: 5px;
+                width: 200px;
+                border:1px solid #ffff;
+                padding-bottom: 7px;
+                cursor: pointer;
+                .img2{
+                    margin-left: 12px;
+                }
+    
+                .h2{
+                    margin-left: 5px;
+                }
+                &:hover{
+                    border: 1px solid rgb(228, 228, 228);
+                    border-radius: 15px;
+                    
+                }
+                button{
+                    cursor: pointer;
+                    width: 170px;
+                    height: 30px;
+                    border: 1px solid #333;
+                    border-radius: 10px;
+                    background-color: #fff;
+                    margin-left: 5px;
+                    p{
+                        margin-top: 5px;
+                        
+                    }
+                }
+    
+                .p4{
+                    width: 195px;
+                    color: #6c7177;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+    
+                .p5{
+                    width: 205px;
+                    color: #6c7177;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+
+                .p8{
+                    width: 185px;
+                    color: #6c7177;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+    
+                .p7{
+                    width: 210px;
+                    color: #6c7177;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+    
+                .p9{
+                    margin-bottom: 30px;
+                }
+                .star{
+                    display: flex;
+                    align-items: center;
+                    margin-top: -15px;
+                    gap: 5px;
+                    p{
+                        margin-left: 5px;
+                        color: #6c7177;
+                        margin-top: 20px;
+                    }
+                }
+                h1{
+                    font-size: 20px;
+                    margin-top: -5px;
+                    margin-left: 10px;
+                }
+    
+                .buttons{
+                    display: flex;
+                    .button1{
+                        width: 54px;
+                        height: 50px;
+                        background-color: $qizil;
+                        border: none;
+                        margin-right: 10px;
+                        &:hover{
+                            background-color: #a71d08;
+                        }
+                        i{
+                            color: white;
+                            font-size: 20px;
+                    }
+                    }
+    
+                    .button2{
+                        width: 54px;
+                        height: 50px;
+                        background-color: #F7F8F8;
+                        border: none;
+                        margin-left: -5px;
+                        &:hover{
+                            background-color: #a7b1b1;
+                        }
+                        i{
+                            color: #5f6469;
+                            font-size: 20px;
+                        }
+                    }
+    
+                    .button3{
+                        width: 54px;
+                        height: 50px;
+                        background-color: #F7F8F8;
+                        border: none;
+                        &:hover{
+                            background-color: #a7b1b1;
+                        }
+    
+                        &:checked{
+                            border: 1px solid $qizil;
+                        }
+                        i{
+                            color: #5f6469;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
         }
 
     }
