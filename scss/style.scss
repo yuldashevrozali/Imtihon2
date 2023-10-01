@@ -1222,10 +1222,86 @@ body{
     background-color: #1D242F;
     display: flex;
     .footer_info{
+        padding-bottom: 25px;
         h1{
             color: white;
+            padding-top: 40px;
             padding-left: 50px;
             font-size: 27px;
         }
+
+        .footer_quizes{
+            color: white;
+            width: 250px;
+            padding-left: 50px;
+            padding-top: 7px;
+        }
+
+        p{
+            color: white;
+            padding-left: 50px;
+        }
+    }
+
+    .footer_pay{
+        margin-left: 150px;
+        p{
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            padding-top: 50px;
+        }
+        .footer_pay3{
+            display: flex;
+            .footer_pay1{
+                a{
+                    display: block;
+                    width: 130px;
+                    height: 40px;
+                    border-radius: 15px;
+                    margin-bottom: 5px;
+                    background-color: #222C3A;
+                    img{
+                        display: block;
+                        width: 100px;
+                        margin-left: 15px;
+                        // padding-top: 10px;
+                    }
+                }
+
+                .top{
+                    padding-top: 10px;
+                }
+            }
+            .footer_pay2{
+                margin-left: 15px;
+                padding-top: 0px;
+                a{
+                    display: block;
+                    width: 130px;
+                    height: 47px;
+                    border-radius: 15px;
+                    margin-bottom: 5px;
+                    background-color: #222C3A;
+                    img{
+                        display: block;
+                        margin-left: 15px;
+                    }
+
+                    .img{
+                        margin-left: 39%;
+                        width: 27px;
+                        padding-top: 5px;
+                    }
+
+                    .img1{
+                        margin-left: 36%;
+                        padding-top: 7px;
+                        
+                    }
+                }
+            }
+        }
+        
     }
 }

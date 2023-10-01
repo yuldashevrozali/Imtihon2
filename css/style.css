@@ -1347,9 +1347,92 @@ body {
   display: flex;
 }
 
+.footer .footer_info {
+  padding-bottom: 25px;
+}
+
 .footer .footer_info h1 {
   color: white;
+  padding-top: 40px;
   padding-left: 50px;
   font-size: 27px;
+}
+
+.footer .footer_info .footer_quizes {
+  color: white;
+  width: 250px;
+  padding-left: 50px;
+  padding-top: 7px;
+}
+
+.footer .footer_info p {
+  color: white;
+  padding-left: 50px;
+}
+
+.footer .footer_pay {
+  margin-left: 150px;
+}
+
+.footer .footer_pay p {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.footer .footer_pay .footer_pay3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay1 a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: #222C3A;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay1 a img {
+  display: block;
+  width: 100px;
+  margin-left: 15px;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay1 .top {
+  padding-top: 10px;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay2 {
+  margin-left: 15px;
+  padding-top: 0px;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay2 a {
+  display: block;
+  width: 130px;
+  height: 47px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: #222C3A;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay2 a img {
+  display: block;
+  margin-left: 15px;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay2 a .img {
+  margin-left: 39%;
+  width: 27px;
+  padding-top: 5px;
+}
+
+.footer .footer_pay .footer_pay3 .footer_pay2 a .img1 {
+  margin-left: 36%;
+  padding-top: 7px;
 }
 /*# sourceMappingURL=style.css.map */
