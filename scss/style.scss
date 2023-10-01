@@ -1057,4 +1057,175 @@ body{
             }
         }
     }
+
+    .hero_brends{
+        margin-left: 50px;
+        position: relative;
+        h1{
+            margin-top: 50px;
+        }
+        .brends_block{
+            display: flex;
+        }
+        .block{
+            width: 200px;
+            height: 120px;
+            cursor: pointer;
+            border: 1px solid #8d9399;
+            border-radius: 15px;
+            margin-right: 10px;
+            img{
+                margin-left: 35px;
+                margin-top: 25px;
+            }
+        }
+
+        .fa-arrow-left{
+            font-size: 25px;
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: -15px;
+            top: 60%;
+
+        }
+
+        .fa-arrow-right{
+            font-size: 25px;
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            right: 15px;
+            top: 60%;
+        }
+    }
+
+     .hero_mediapark{
+        margin-left: 50px;
+        margin-top: 35px;
+        position: relative;
+        h1{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .fa-arrow-left{
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .fa-arrow-right{
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            cursor: pointer;
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            padding: 5px;
+
+        }
+        .mediapark_blocks{
+            display: flex;
+            gap: 15px;
+
+            .block3{
+                width: 160px;
+            }
+            .block{
+                border: 1px solid #aab3bd;
+                border-radius: 15px;
+                height: 230px;
+                width: 196px;
+
+                .narx{
+                    margin-bottom: 35px;
+                }
+                h3{
+                    font-size: 16px;
+                    margin-left: 5px;
+                    width: 180px;
+                }
+
+                .p12{
+                }
+                p{
+                    width: 190px;
+                    margin-top: -5px;
+                    font-size: 14px;
+                    color: #6c7177;
+                    margin-left: 5px;
+                }
+                .block_info{
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 10px;
+                    background-color: #FDF5F3;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    
+                    i{
+                        margin-left: 15px;
+                        margin-top: 15px;
+                        color: red ;
+                    }
+                }
+            }
+        }
+     }
+
+     .hero_havola{
+        display: flex;
+        padding-left: 50px;
+        width: 1400px;
+        height: 250px;
+        background-color: #F8F8F9;
+        margin-top: 100px;
+        .havola_left{
+            margin-right: 15%;
+            padding-top: 25px;
+            h1{
+                width: 510px;
+                color: #212B39;
+            }
+            p{
+                color: rgb(108, 113, 120);
+                padding-bottom: 13%;
+                width: 330px;
+            }
+            .button_havola{
+                a{
+                    margin-right: 7px;
+                }
+            }
+
+        }
+
+        .havola_right{
+            margin-top: -41px;
+        }
+     }
+}
+
+// footer
+
+.footer{
+    margin-top: 100px;
+    background-color: #1D242F;
+    display: flex;
+    .footer_info{
+        h1{
+            color: white;
+            padding-left: 50px;
+            font-size: 27px;
+        }
+    }
 }

@@ -1170,4 +1170,186 @@ body {
   color: #5f6469;
   font-size: 20px;
 }
+
+.hero .hero_brends {
+  margin-left: 50px;
+  position: relative;
+}
+
+.hero .hero_brends h1 {
+  margin-top: 50px;
+}
+
+.hero .hero_brends .brends_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .hero_brends .block {
+  width: 200px;
+  height: 120px;
+  cursor: pointer;
+  border: 1px solid #8d9399;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.hero .hero_brends .block img {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.hero .hero_brends .fa-arrow-left {
+  font-size: 25px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  top: 60%;
+}
+
+.hero .hero_brends .fa-arrow-right {
+  font-size: 25px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: 60%;
+}
+
+.hero .hero_mediapark {
+  margin-left: 50px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.hero .hero_mediapark h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero .hero_mediapark .fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hero .hero_mediapark .fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.hero .hero_mediapark .mediapark_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block3 {
+  width: 160px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block {
+  border: 1px solid #aab3bd;
+  border-radius: 15px;
+  height: 230px;
+  width: 196px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block .narx {
+  margin-bottom: 35px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block h3 {
+  font-size: 16px;
+  margin-left: 5px;
+  width: 180px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block p {
+  width: 190px;
+  margin-top: -5px;
+  font-size: 14px;
+  color: #6c7177;
+  margin-left: 5px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block .block_info {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #FDF5F3;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hero .hero_mediapark .mediapark_blocks .block .block_info i {
+  margin-left: 15px;
+  margin-top: 15px;
+  color: red;
+}
+
+.hero .hero_havola {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+  width: 1400px;
+  height: 250px;
+  background-color: #F8F8F9;
+  margin-top: 100px;
+}
+
+.hero .hero_havola .havola_left {
+  margin-right: 15%;
+  padding-top: 25px;
+}
+
+.hero .hero_havola .havola_left h1 {
+  width: 510px;
+  color: #212B39;
+}
+
+.hero .hero_havola .havola_left p {
+  color: #6c7178;
+  padding-bottom: 13%;
+  width: 330px;
+}
+
+.hero .hero_havola .havola_left .button_havola a {
+  margin-right: 7px;
+}
+
+.hero .hero_havola .havola_right {
+  margin-top: -41px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #1D242F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer_info h1 {
+  color: white;
+  padding-left: 50px;
+  font-size: 27px;
+}
 /*# sourceMappingURL=style.css.map */
